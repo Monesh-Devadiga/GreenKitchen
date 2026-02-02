@@ -1,0 +1,141 @@
+.explorer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 18px;
+  padding: 2rem;
+  box-shadow: 0 15px 35px rgba(47, 133, 90, 0.08);
+  border: 1px solid rgba(47, 133, 90, 0.12);
+}
+
+.section-header h2 {
+  margin-bottom: 0.25rem;
+  color: var(--primary);
+}
+
+.section-header p {
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+.explorer-card {
+  background: #f7fcf8;
+  border-radius: 16px;
+  padding: 1.5rem;
+  border: 1px solid rgba(47, 133, 90, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 1rem;
+}
+
+.badge {
+  background: rgba(47, 133, 90, 0.15);
+  color: var(--primary);
+  padding: 0.25rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.meta,
+.stats {
+  color: var(--muted);
+  margin: 0.5rem 0;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tags .tag {
+  background: white;
+  border: 1px solid rgba(47, 133, 90, 0.2);
+  color: var(--primary);
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.list-item {
+  background: #f8fdfa;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  border: 1px solid rgba(47, 133, 90, 0.08);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.list-title {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.list-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.list-comment {
+  margin-top: 0.35rem;
+  color: var(--text-dark);
+}
+
+.list-date {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.contrib-pill {
+  background: rgba(47, 133, 90, 0.1);
+  color: var(--primary);
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.error-card {
+  padding: 2rem;
+  background: rgba(245, 101, 101, 0.15);
+  border-radius: 12px;
+  color: #742a2a;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 1.5rem;
+  }
+
+  .list-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
