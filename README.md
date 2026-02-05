@@ -1,0 +1,3 @@
+**Overview**
+
+The Cooking Recipes Management System is a database driven application designed to organize, store and manage cooking recipes efficiently. Built on DBMS principles, it allows users to upload, categorize and filter recipes by details like cuisine, ingredients and categories. Key features include structured cooking instructions, an integrated review system for user feedback and tools to reduce data redundancy while ensuring fast, reliable access to culinary information. This system provides a user-friendly platform for exploring, organizing and sharing recipes in a centralized digital environment.
