@@ -2,7 +2,7 @@
 CREATE DATABASE IF NOT EXISTS recipes_db3;
 USE recipes_db3;
 
--- This is the tabale defenition to store the all registered users
+-- This is the tabale defenition to store the all registered users.
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
   username VARCHAR(50) NOT NULL UNIQUE,
@@ -11,13 +11,13 @@ CREATE TABLE users (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- This is the tabale defenition to store the all different categories of recipes
+-- This is the tabale defenition to store the all different categories of recipes.
 CREATE TABLE categories (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(100) UNIQUE NOT NULL
 );
 
--- This is the tabale defenition to store the all different ccuisines of different recipes
+-- This is the tabale defenition to store the all different ccuisines of different recipes.
 CREATE TABLE cuisines (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(100) UNIQUE NOT NULL
