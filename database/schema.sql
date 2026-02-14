@@ -41,6 +41,7 @@ CREATE TABLE recipes (
   FOREIGN KEY (cuisine_id) REFERENCES cuisines(id)
 );
 
+-- This is the tabale defenition to store the different ingredients used in recipes.
 CREATE TABLE ingredients (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(200) UNIQUE NOT NULL
