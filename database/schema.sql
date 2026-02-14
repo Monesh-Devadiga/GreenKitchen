@@ -47,6 +47,7 @@ CREATE TABLE ingredients (
   name VARCHAR(200) UNIQUE NOT NULL
 );
 
+-- This is the tabale defenition to store the different ingredients used in recipes.
 CREATE TABLE recipe_ingredients (
   id INT AUTO_INCREMENT PRIMARY KEY,
   recipe_id INT,
