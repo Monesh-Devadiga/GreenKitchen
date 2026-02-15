@@ -58,6 +58,7 @@ CREATE TABLE recipe_ingredients (
   FOREIGN KEY (ingredient_id) REFERENCES ingredients(id)
 );
 
+-- This is the tabale defenition which defines the several instructions in order to prepare recipes.
 CREATE TABLE instructions (
   id INT AUTO_INCREMENT PRIMARY KEY,
   recipe_id INT,
