@@ -73,6 +73,7 @@ CREATE TABLE tags (
   name VARCHAR(100) UNIQUE NOT NULL
 );
 
+-- This is the tabale defenition to store the different tagged recipes.
 CREATE TABLE recipe_tags (
   recipe_id INT,
   tag_id INT,
