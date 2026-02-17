@@ -23,7 +23,7 @@ CREATE TABLE cuisines (
   name VARCHAR(100) UNIQUE NOT NULL
 );
 
--- This is the tabale defenition to store the different recipes.
+-- This is the tabale defenition to store  the different recipes.
 CREATE TABLE recipes (
   id INT AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(255) NOT NULL,
