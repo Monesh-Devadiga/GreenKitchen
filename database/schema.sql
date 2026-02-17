@@ -1,4 +1,4 @@
--- The entire scheme is for overall existed  tables.
+-- The entire scheme is for overall existed tables.
 CREATE DATABASE IF NOT EXISTS recipes_db3;
 USE recipes_db3;
 
