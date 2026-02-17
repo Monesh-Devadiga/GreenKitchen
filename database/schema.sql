@@ -1,4 +1,4 @@
--- This defines the overall defination of datbase scheme which stores data in MySQL Database Software
+-- This defines the overall defination of datbase scheme which stores data in MySQL Database Software.
 -- The entire scheme is for overall existed tables.
 CREATE DATABASE IF NOT EXISTS recipes_db3;
 USE recipes_db3;
