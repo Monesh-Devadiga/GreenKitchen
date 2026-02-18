@@ -21,7 +21,8 @@ CREATE TABLE categories
 );
 
 -- This is the tabale defenition to store the all different cuisines of different recipes.
-CREATE TABLE cuisines (
+CREATE TABLE cuisines 
+(
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(100) UNIQUE NOT NULL
 );
