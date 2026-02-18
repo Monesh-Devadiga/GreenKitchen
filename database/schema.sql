@@ -47,7 +47,8 @@ CREATE TABLE recipes
 );
 
 -- This is the tabale defenition to store the different ingredients.
-CREATE TABLE ingredients (
+CREATE TABLE ingredients 
+(
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(200) UNIQUE NOT NULL
 );
