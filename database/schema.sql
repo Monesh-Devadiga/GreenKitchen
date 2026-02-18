@@ -83,6 +83,7 @@ CREATE TABLE recipe_tags (
   FOREIGN KEY (tag_id) REFERENCES tags(id)
 );
 
+-- This is the tabale defenition to store the reviews.
 CREATE TABLE reviews (
   id INT AUTO_INCREMENT PRIMARY KEY,
   recipe_id INT,
