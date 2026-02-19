@@ -54,7 +54,8 @@ CREATE TABLE ingredients
 );
 
 -- This is the tabale defenition to store the different ingredients used in recipes.
-CREATE TABLE recipe_ingredients (
+CREATE TABLE recipe_ingredients 
+  (
   id INT AUTO_INCREMENT PRIMARY KEY,
   recipe_id INT,
   ingredient_id INT,
