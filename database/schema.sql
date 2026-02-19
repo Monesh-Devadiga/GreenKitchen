@@ -77,7 +77,7 @@ CREATE TABLE instructions
 
 -- This is the tabale defenition to store the different tags.
 CREATE TABLE tags 
-  (
+(
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(100) UNIQUE NOT NULL
 );
