@@ -94,7 +94,7 @@ CREATE TABLE recipe_tags
 
 -- This is the tabale defenition to store the reviews of the recipes.
 CREATE TABLE reviews
-  (
+(
   id INT AUTO_INCREMENT PRIMARY KEY,
   recipe_id INT,
   user_id INT,
