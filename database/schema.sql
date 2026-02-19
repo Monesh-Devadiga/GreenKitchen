@@ -67,7 +67,7 @@ CREATE TABLE recipe_ingredients
 
 -- This is the tabale defenition which defines the several instructions in order to prepare recipes.
 CREATE TABLE instructions 
-  (
+(
   id INT AUTO_INCREMENT PRIMARY KEY,
   recipe_id INT,
   step_number INT,
