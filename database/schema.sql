@@ -1,6 +1,5 @@
 -- This defines the overall defination of datbase scheme which stores data in MySQL Database Software.
 
--- The entire scheme is for overall existed tables.
 -- To create the database.
 CREATE DATABASE IF NOT EXISTS recipes_db3;
 USE recipes_db3;    -- The database which is used to store the data.
