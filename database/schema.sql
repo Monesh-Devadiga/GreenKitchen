@@ -3,7 +3,7 @@
 -- The entire scheme is for overall existed tables.
 
 CREATE DATABASE IF NOT EXISTS recipes_db3;
-USE recipes_db3;
+USE recipes_db3;    -- The database which is used 
 
 -- This is the tabale defenition to store the all registered users.
 CREATE TABLE users
