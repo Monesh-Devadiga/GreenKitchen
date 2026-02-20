@@ -2,7 +2,7 @@
 
 -- To create the database.
 CREATE DATABASE IF NOT EXISTS recipes_db3;
-USE recipes_db3;    -- The database which is used to store the data.
+USE recipes_db3;
 
 -- The entire scheme is for overall existed tables.
 
