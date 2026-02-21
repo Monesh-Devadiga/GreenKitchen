@@ -96,6 +96,7 @@ CREATE TABLE recipe_tags
   FOREIGN KEY (recipe_id) REFERENCES recipes(id) ON DELETE CASCADE,
   FOREIGN KEY (tag_id) REFERENCES tags(id)
 );
+
 -- This is the tabale defenition to store the reviews of the recipes.
 CREATE TABLE reviews
 (
