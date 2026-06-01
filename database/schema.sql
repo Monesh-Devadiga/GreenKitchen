@@ -5,6 +5,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 -- To create the database. 
 CREATE DATABASE IF NOT EXISTS recipes_db3;
    
